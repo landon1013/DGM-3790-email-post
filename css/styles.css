@@ -27,6 +27,7 @@ a {
     color: #fff;
     text-decoration: none;
 }
+a:hover
 section {
 	display: block;
 	margin-top: 50px;

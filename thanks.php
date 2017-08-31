@@ -13,7 +13,16 @@
 <body>
 	
 <main>
-
+<nav>
+	<ul>
+		<li>
+			<a href="index.html">html</a>
+		</li>
+		<li>
+			<a href="jquery.php">jQuery</a>
+		</li>
+	</ul>
+</nav>
 <h1 class="thank-you">Thank You!</h1>
 
 </main>
