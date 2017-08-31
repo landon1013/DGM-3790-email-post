@@ -4,13 +4,13 @@
   $email = $_REQUEST['email'];
   $body = $_REQUEST['body'];
 
-  $to = "hiro@mrhiro.com"; //recipient
+  $to = "landon@thecallfamily.com"; //recipient
 
   $subject = "RIA Emails"; //subject
-  $header = "From: ". $name . " <" . $from . ">\r\n";
+  $header = "From: ". $name . " <" . $email . ">\r\n";
 
   if (mail($to, $subject, $body, $header)){
-    echo 'Your email has been sent!';
+    include'thanks.php';
   } else {
     echo 'Error: something went wrong.';
   }
