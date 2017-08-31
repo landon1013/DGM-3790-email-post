@@ -1,10 +1,12 @@
-var data = {
-    name: $("#form_name").val(),
-    email: $("#form_email").val(),
-    message: $("#msg_text").val()
-};
-$.ajax({
-    type: "POST",
-    url: "email-php.php",
-    data: data,
-});
+$(document).ready(function() {
+  $('#frmemail').submit(function(event) {
+    $.ajax({
+      type: 'POST',
+      url: 'email-php.php',
+      data: $('#frmemail').serialize(),
+      success: function() {
+        $('.success').fadeIn(1000)
+      }
+    })
+  })
+})

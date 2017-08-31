@@ -4,7 +4,7 @@
   $email = $_REQUEST['email'];
   $body = $_REQUEST['body'];
 
-  $to = "landon@thecallfamily.com"; //recipient
+  $to = "hiro@mrhiro.com"; //recipient
 
   $subject = "RIA Emails"; //subject
   $header = "From: ". $name . " <" . $email . ">\r\n";

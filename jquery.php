@@ -5,7 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>jQuery email-post</title>
-<link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
@@ -22,12 +21,12 @@
   </nav>
   <main>
   	<section>
-  		<form enctype="multipart/form-data">
+  		<form enctype="multipart/form-data" id="frmemail">
   			<fieldset class="margin-b">
   				<legend>Contact Me</legend>
-  				<label for="form_name">Name:<input name="form_name" id="form_name" type="text" value="" required autofocus ></label>
-  				<label for="form_email">Email:<input type="email" name="form_email" id="form_email" value=""></label>
-  				<label for="form_msg">Message:<textarea name="form_msg" id="form_msg" rows="5"></textarea></label>
+  				<label for="form_name">Name:<input name="form_name" type="text" value="" required autofocus ></label>
+  				<label for="form_email">Email:<input name="form_email" type="email" value=""></label>
+  				<label for="form_msg">Message:<textarea name="form_msg" rows="5"></textarea></label>
   			</fieldset>
   			<input type="submit" name="submit" id="submit" value="Submit">
   		</form>
