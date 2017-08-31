@@ -14,7 +14,19 @@ body {
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
-
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    background: mediumvioletred;
+    border-radius: 3px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
 section {
 	display: block;
 	margin-top: 50px;
