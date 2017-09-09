@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $('#frmemail').submit(function(event) {
     $.ajax({
@@ -7,6 +8,11 @@ $(document).ready(function() {
       success: function() {
         $('.success').fadeIn(1000)
       }
+
+	
     })
   })
 })
+
+
+	

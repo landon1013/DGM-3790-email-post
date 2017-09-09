@@ -7,6 +7,8 @@
 <title>jQuery email-post</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
 </head>
   <body>
   <nav>
@@ -14,14 +16,14 @@
   		<li>
   			<a href="index.html">html</a>
   		</li>
-  		<li>
-  			<a href="jquery.php">jQuery</a>
+  		<li class="active">
+  			<a href="jquery.php" >jQuery</a>
   		</li>
   	</ul>
   </nav>
   <main>
   	<section>
-  		<form enctype="multipart/form-data" id="frmemail">
+  		<form enctype="multipart/form-data" id="frmemail" onSubmit="alert('Thank you for filling out our response form')">
   			<fieldset class="margin-b">
   				<legend>Contact Me</legend>
   				<label for="form_name">Name:<input name="form_name" type="text" value="" required autofocus ></label>
@@ -31,6 +33,8 @@
   			<input type="submit" name="submit" id="submit" value="Submit">
   		</form>
   	</section>
+  	
+
   </main>
 
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>

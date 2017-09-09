@@ -41,6 +41,9 @@ section {
 	font-size: 2.4em;
 }
 
+.active{
+	background-color: #5FCF80;
+}
 /*-- Fieldset --*/
 
 fieldset {
