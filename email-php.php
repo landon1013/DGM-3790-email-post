@@ -3,7 +3,7 @@
   $email = $_POST['form_email'];
   $message = $_POST['form_msg'];
 
-  $to = "landon@thecallfamily.com";
+  $to = "hiro@mrhiro.com";
   $subject = "RIA Emails";
   $body = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$message;
   $headers = "From: " . $email;
