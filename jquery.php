@@ -20,7 +20,7 @@
   			<a href="jquery.php" >jQuery</a>
   		</li>
   		<li>
-  			<a href="axios.php">html</a>
+  			<a href="axios.php">Axios</a>
   		</li>
   	</ul>
   </nav>
@@ -36,7 +36,7 @@
   			<input type="submit" name="submit" id="submit" value="Submit">
   		</form>
   	</section>
-  	
+
 
   </main>
 
